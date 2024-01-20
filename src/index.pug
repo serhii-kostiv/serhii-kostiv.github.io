@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Serhii Kostiv
+    link(rel="stylesheet", href=require("sass/reset.sass"))
+    link(rel="stylesheet", href=require("sass/styles.sass"))
+    link(rel="stylesheet", href=require("sass/media.sass"))
+  body
+
+    include mixins.pug
+
+    .container
+      header.header.section
+        a.brand-logo(href="./")
+          p.brand-logo__name SERHII KOSTIV
+          p.brand-logo__subtitle FRONTEND DEVELOPER
+        p.header__title I am a middle specializing in frontend development.
+
+      nav.nav.section 
+        ul.nav__list
+          +navMenu('MY WORKS', 'SKILLS', 'CONTACTS')
+
+      main.main.section
+        .work-block.section.tab
+          +workBox(['img/min-images/d-etf.jpeg',   'https://d-etf.com/', 'D-ETF'],
+                   ['img/min-images/first-bridge.jpeg',  'https://firstbridge.io/', 'First Bridge'],
+                   ['img/min-images/the-grid.jpeg',   'https://sgpgrid.com/', 'The Grid'],
+                   ['img/min-images/polar.jpeg',    'https://polarhpc.com/', 'Polar'])
+            
+        section.block.block_margin.description-block.description-block_notActive
+          span.block__close X
+          h2.description-block__title NAME WORK
+          p.description-block__text Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ducimus sed est, corrupti tenetur aperiam repudiandae explicabo quasi sunt facilis aspernatur optio voluptates magni mollitia nulla sit voluptatibus cupiditate fuga.
+          ul.technologies
+
+        section.block.block_margin.about-me.tab.notActive-tab
+          span.block__close X
+          h2.about-me__first-title MY SKILLS
+          .skills
+            +skills(['data', 'HTML + CSS', 'Using pre-processors SASS and Pug'],
+                    ['resize', 'Adaptive Layout', 'Adaptive layout using flexbox and media queries'],
+                    ['binary-data', 'Cross-Browser', 'Optimal site display in all modern browsers'],
+                    ['code', 'JavaScript', 'JavaScript/React/Vue/jQuery. Using Gulp/Webpack to build a project'],
+                    ['browser', 'Validation', 'Compliance to W3C standards'],
+                    ['software', 'Photoshop', 'Using  photoshop to work with layouts'])
+                
+        section.block.block_margin.contacts.tab.notActive-tab
+          span.block__close X
+          h2.contacts__title CONTACTS
+          .contact-me
+            p.contact-me__title You can contact me ⬇
+            span.contact-me__phone Phone: 
+              a.contact-me__link(href="tel:+380671652141")   +380 (67) 165-21-41
+            span.contact-me__email E-mail: 
+              a.contact-me__link(href="mailto:kostiv.serhii@gmail.com")  kostiv.serhii@gmail.com
+          .social-media
+            p.social-media__title And also you can find me in social networks ⬇
+            +social-media(['https://www.instagram.com/kostiv_serhii', 'instagram'],
+                          ['https://t.me/serhii_kostiv', 'telegram'],
+                          ['https://github.com/kraiviks', 'github'],
+                          ['https://www.linkedin.com/in/serhii-kostiv/', 'linkedin'],
+                          ['https://join.skype.com/invite/D5FVjR3C0cta', 'skype'])
+    script(src=require('js/common.js'))
+
+          
+
+
+
+          
