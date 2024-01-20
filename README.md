@@ -1,4 +1,4 @@
-# Portfolio README
+# Portfolio
 
 This is a simple guide to set up and manage your portfolio project. This portfolio is built using webpack and includes support for Pug, Sass, and SVG. It is designed to be easily deployable on GitHub Pages.
 
