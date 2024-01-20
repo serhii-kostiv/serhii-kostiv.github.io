@@ -54,4 +54,4 @@ This is a simple guide to set up and manage your portfolio project. This portfol
 ## License
 This project is licensed under the [ISC License](LICENSE).
 
-For more information, visit the [GitHub Pages](https://kraiviks.github.io/kraiviks.github.io).
+For more information, visit the [GitHub Pages](https://kraiviks.github.io/).
