@@ -40,33 +40,37 @@ html(lang="en")
           span.block__close X
           h2.about-me__first-title MY SKILLS
           .skills
-            +skills(['data', 'HTML + CSS', 'Using pre-processors SASS and Pug'],
-                    ['resize', 'Adaptive Layout', 'Adaptive layout using flexbox and media queries'],
-                    ['binary-data', 'Cross-Browser', 'Optimal site display in all modern browsers'],
-                    ['code', 'Code', 'JavaScript, ES6, TypeScript, React, Nexj.js, Vue, jQuery. Using Gulp/Webpack to build a project'],
-                    ['browser', 'Validation', 'Compliance to W3C standards'],
-                    ['software', 'Software/Tools', 'Trello/Jira, Photoshop/Avocode/Figma, Docker'])
+            +skills(['html', 'HTML', ''],
+                    ['css', 'CSS', ''],
+                    ['js', 'JavaScript', ''],
+                    ['ts', 'TypeScript and Flow', ''],
+                    ['react', 'React and Preact', ''],
+                    ['next', 'Next.js', ''],
+                    ['graphql', 'GraphQL', ''],
+                    ['vue', 'Vue and Vuex', ''],
+                    ['state_management', 'State management', 'State management libraries such as MobX, Redux and Redux Toolkit, as well as technologies such as Redux-Saga and Redux-Thunk'],
+                    ['web_components', 'Web Components', ''],
+                    ['jquery', 'jQuery', ''],
+                    ['storybook', 'Storybook', 'Storybook, as well as technologies such as Loki and JSDoc'],
+                    ['html_template_engines', 'HTML template engines', 'HTML template engines such as Pug and EJS'],
+                    ['css_preprocessors', 'CSS preprocessors', 'CSS preprocessors such as SASS, LESS'],
+                    ['css_tools', 'CSS tool', 'CSS tools such as Styled Components, Emotion, Styled JSX, Material-UI, Ant Design, Tailwind CSS, Bootstrap, Materialize, Pure CSS and Skeleton'],
+                    ['bundlers', 'Bundlers', 'Bundlers and task managers such as Webpack, Gulp'],
+                    ['js_testing_tools', 'JS testing tools', 'JS testing tools such as Jest, Enzyme, Testing Library (RTL), Cypress, WebdriverIO'],
+                    ['git', 'Git', 'Git, as well as technologies such as GitHub, GitLab and Bitbucket'],
+                    ['docker', 'Docker', ''],
+                    ['software', 'Tools', 'Jira, Trello, Confluence, Heroku, Photoshop, Figma, InVision, WebStorm'])
                 
         section.block.block_margin.contacts.tab.notActive-tab
           span.block__close X
           h2.contacts__title CONTACTS
           .contact-me
             p.contact-me__title You can contact me ⬇
-            span.contact-me__phone Phone: 
-              a.contact-me__link(href="tel:+380671652141")   +380 (67) 165-21-41
             span.contact-me__email E-mail: 
               a.contact-me__link(href="mailto:kostiv.serhii@gmail.com")  kostiv.serhii@gmail.com
           .social-media
             p.social-media__title And also you can find me in social networks ⬇
-            +social-media(['https://www.instagram.com/kostiv_serhii', 'instagram'],
-                          ['https://t.me/serhii_kostiv', 'telegram'],
-                          ['https://github.com/kraiviks', 'github'],
+            +social-media(['https://github.com/kraiviks', 'github'],
                           ['https://www.linkedin.com/in/serhii-kostiv/', 'linkedin'],
                           ['https://join.skype.com/invite/D5FVjR3C0cta', 'skype'])
     script(src=require('js/common.js'))
-
-          
-
-
-
-          

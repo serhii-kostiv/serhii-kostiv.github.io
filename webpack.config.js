@@ -35,7 +35,7 @@ module.exports = {
 			},
 			{
 				//🌟 To use images on pug files:
-				test: /\.(png|jpg|jpeg|ico)/,
+				test: /\.(png|jpg|jpeg|ico)$/,
 				type: 'asset/resource',
 				generator: {
 					filename: 'assets/img/[name].[hash:8][ext]',
