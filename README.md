@@ -12,11 +12,11 @@ This is a simple guide to set up and manage your portfolio project. This portfol
 ## Installation
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/kraiviks/kraiviks.github.io.git
+    git clone https://github.com/serhii-kostiv/serhii-kostiv.github.io.git
     ```
 2. Change into the project directory:
     ```bash
-    cd kraiviks.github.io
+    cd serhii-kostiv.github.io
     ```
 3. Install the project dependencies:
     ```bash
