@@ -8,7 +8,7 @@
     "deploy": "gh-pages -d dist"
 	},
 	"author": "Serhii Kostiv <kostiv.serhii@gmail.com>",
-	"homepage": "https://kraiviks.github.io",
+	"homepage": "https://serhii-kostiv.github.io",
 	"license": "ISC",
 	"devDependencies": {
 		"css-loader": "^6.9.1",
