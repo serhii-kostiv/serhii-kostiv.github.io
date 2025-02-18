@@ -21,7 +21,7 @@ export const data = {
 	},
 	'sk-dev': {
 		title: 'SK-Dev',
-		text: 'New portfolio on Nuxt.js + Nest.js',
+		text: 'New portfolio on Next.js + Nest.js',
 		tags: [
 			'TypeScript',
 			'REACT',
